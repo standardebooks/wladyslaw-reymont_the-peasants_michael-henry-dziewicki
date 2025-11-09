@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/wladyslaw-reymont/the-peasants/michael-henry-dziewicki</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2025-11-09T23:32:11Z</dc:date>
+		<meta property="dcterms:modified">2025-11-09T23:32:11Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -45,8 +45,9 @@
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">The native inhabitants of a Polish village deal with family conflicts, squabbles over land, societal unrest, and the changing of the seasons.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;The Peasants&lt;/i&gt; describes one year in the lives of the inhabitants of Lipka, a turn-of-the-century village in Russian-occupied Poland. While it has a large cast of characters, its main focus is on the Boryna household. Matthias Boryna is among the richest and most prominent farmers in the village and is still in his prime despite being twice divorced. He considers taking the young Yagna as his third wife. Meanwhile, his son Antek (married and father of two) is keen on obtaining his inheritance and lusts for Yagna. Thus the Borynas struggle for land and love. Meanwhile, other villagers are less well off and strive to make a living. As farmers, they are in constant battle against the forces of nature. As the rural working class, they collectively act against the whims of their local nobleman. Despite all the trials and tribulations, they find solace in helping their neighbors, upholding customs, and when their work in the field bears fruit.&lt;/p&gt;
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/wladyslaw-reymont"&gt;Władysław Reymont&lt;/a&gt; published &lt;i&gt;The Peasants&lt;/i&gt; as a serial (1902 to 1908) and later as four separate volumes (1904 to 1909), with each volume describing a single season, from autumn to summer. This edition is of the first English translation, published in 1924. The book is notable for being a naturalistic account of rural everyday life and for describing many Polish traditions (some of which are still upheld). Critics praise its blend of realism with impressionism and symbolism. Consequently, Reymont was awarded the Nobel Prize in Literature in 1924 for this work.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Peasants&lt;/i&gt; describes one year in the lives of the inhabitants of Lipka, a turn-of-the-century village in Russian-occupied Poland. While the novel has a large cast of characters, its main focus is on the Boryna household.&lt;/p&gt;
+			&lt;p&gt;Matthias Boryna is among the richest and most prominent farmers in the village, and is still in his prime despite being twice divorced. He considers taking the young Yagna as his third wife. Meanwhile, his son Antek, married and father of two, is keen on obtaining his inheritance, and lusts for Yagna. Thus the Borynas struggle for land and love. Meanwhile, other villagers are less well off and strive to make a living. As farmers, they’re in constant battle against the forces of nature; as the rural working class, they collectively act against the whims of their local nobleman. Despite all their trials and tribulations, they find solace in helping their neighbors, upholding customs, and seeing the fruit of their hours of work in the fields.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/wladyslaw-reymont"&gt;Władysław Reymont&lt;/a&gt; published &lt;i&gt;The Peasants&lt;/i&gt; as a serial between 1902 and 1908, and later as four separate volumes between 1904 and 1909, with each volume describing a single season. This edition is of the first English translation, published in 1924, and contains all of the seasons in a single volume. The book is notable for being a naturalistic account of rural everyday life and for describing many Polish traditions, some of which are still upheld to this day. Critics praised its blend of realism with impressionism and symbolism. Consequently, Reymont was awarded the Nobel Prize in Literature in 1924 specifically for this work.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<!-- Transcription, Volume 1, Autumn -->
@@ -66,8 +67,8 @@
 		<!-- Scan, Volume 4, Summer -->
 		<dc:source>https://archive.org/details/peasantssummer0000ladi</dc:source>
 		<meta property="se:production-notes">Extraneous capitalization was removed from the following words: komorniki, dziads, oberek, sygnaturka, kolendy. All are lowercase in the original Polish.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">384038</meta>
+		<meta property="se:reading-ease.flesch">79.8</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Peasants</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/wladyslaw-reymont_the-peasants_michael-henry-dziewicki</meta>
 		<dc:creator id="author">Władysław Reymont</dc:creator>
@@ -106,6 +107,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Vince Rice</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Rice, Vince</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://www.brokenandsaved.com/</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
