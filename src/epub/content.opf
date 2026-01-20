@@ -67,7 +67,7 @@
 		<!-- Scan, Volume 4, Summer -->
 		<dc:source>https://archive.org/details/peasantssummer0000ladi</dc:source>
 		<meta property="se:production-notes">Extraneous capitalization was removed from the following words: komorniki, dziads, oberek, sygnaturka, kolendy. All are lowercase in the original Polish.</meta>
-		<meta property="se:word-count">384036</meta>
+		<meta property="se:word-count">381316</meta>
 		<meta property="se:reading-ease.flesch">79.8</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Peasants</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/wladyslaw-reymont_the-peasants_michael-henry-dziewicki</meta>
