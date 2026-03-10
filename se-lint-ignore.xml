@@ -2,21 +2,25 @@
 <se-lint-ignore>
 	<file path="chapter-2-6.xhtml">
 		<ignore code="t-017">
+			<line>236</line>
 			<reason>The exclamation point is part an interjection which is a complete clause.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-2-12.xhtml">
 		<ignore code="t-003">
+			<line>40</line>
 			<reason>Dialog from the same speaker spans multiple paragraphs.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-3-1.xhtml">
 		<ignore code="t-003">
+			<line>47</line>
 			<reason>Dialog from the same speaker spans multiple paragraphs.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-3-7.xhtml">
 		<ignore code="t-003">
+			<line>195</line>
 			<reason>Dialog from the same speaker spans multiple paragraphs.</reason>
 		</ignore>
 	</file>
