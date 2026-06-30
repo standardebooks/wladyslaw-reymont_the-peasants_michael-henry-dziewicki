@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/wladyslaw-reymont/the-peasants/michael-henry-dziewicki</dc:identifier>
 		<dc:date>2025-11-09T23:32:11Z</dc:date>
 		<meta property="dcterms:modified">2025-11-09T23:32:11Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -42,7 +43,7 @@
 		<meta property="term" refines="#subject-1">Unknown</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">Unknown</meta>
-		<meta property="se:subject">Fiction</meta>
+		<meta property="schema:genre">Fiction</meta>
 		<dc:description id="description">The native inhabitants of a Polish village deal with family conflicts, squabbles over land, societal unrest, and the changing of the seasons.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Peasants&lt;/i&gt; describes one year in the lives of the inhabitants of Lipka, a turn-of-the-century village in Russian-occupied Poland. While the novel has a large cast of characters, its main focus is on the Boryna household.&lt;/p&gt;
@@ -66,41 +67,42 @@
 		<dc:source>https://archive.org/details/peasantsspring0000ladi</dc:source>
 		<!-- Scan, Volume 4, Summer -->
 		<dc:source>https://archive.org/details/peasantssummer0000ladi</dc:source>
-		<meta property="se:production-notes">Extraneous capitalization was removed from the following words: komorniki, dziads, oberek, sygnaturka, kolendy. All are lowercase in the original Polish.</meta>
-		<meta property="se:word-count">381316</meta>
-		<meta property="se:reading-ease.flesch">79.8</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Peasants</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/wladyslaw-reymont_the-peasants_michael-henry-dziewicki</meta>
+		<meta property="schema:wordCount">381316</meta>
+		<meta property="schema:educationalLevel">79.8</meta>
+		<link href="https://en.wikipedia.org/wiki/The_Peasants" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/wladyslaw-reymont_the-peasants_michael-henry-dziewicki" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Władysław Reymont</dc:creator>
 		<meta property="file-as" refines="#author">Reymont, Władysław</meta>
-		<meta property="se:name.person.full-name" refines="#author">Władysław Stanisław Reymont</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/W%C5%82adys%C5%82aw_Reymont</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50075843</meta>
+		<meta property="schema:alternateName" refines="#author">Władysław Stanisław Reymont</meta>
+		<link href="https://en.wikipedia.org/wiki/W%C5%82adys%C5%82aw_Reymont" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50075843.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">Michael Henry Dziewicki</dc:contributor>
 		<meta property="file-as" refines="#translator">Dziewicki, Michael Henry</meta>
-		<meta property="se:name.person.full-name" refines="#translator">Michał Henryk Seweryn Dziewicki</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/no2009177840</meta>
+		<meta property="schema:alternateName" refines="#translator">Michał Henryk Seweryn Dziewicki</meta>
+		<link href="https://id.loc.gov/authorities/names/no2009177840.html" refines="#translator" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<dc:contributor id="artist">Włodzimierz Tetmajer</dc:contributor>
 		<meta property="file-as" refines="#artist">Tetmajer, Włodzimierz</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/W%C5%82odzimierz_Tetmajer</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n82239748</meta>
+		<link href="https://en.wikipedia.org/wiki/W%C5%82odzimierz_Tetmajer" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n82239748.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="writer-of-preface">Alfred A. Knopf</dc:contributor>
 		<meta property="file-as" refines="#writer-of-preface">Knopf, Alfred A.</meta>
-		<meta property="se:name.person.full-name" refines="#writer-of-preface">Alfred Abraham Knopf Sr.</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#writer-of-preface">https://en.wikipedia.org/wiki/Alfred_A._Knopf_Sr.</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n86134128</meta>
+		<meta property="schema:alternateName" refines="#writer-of-preface">Alfred Abraham Knopf Sr.</meta>
+		<link href="https://en.wikipedia.org/wiki/Alfred_A._Knopf_Sr." refines="#writer-of-preface" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n86134128.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#writer-of-preface" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="transcriber-1">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">https://www.pgdp.net/</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-1" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Szymon Szott</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Szott, Szymon</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://szymonszott.github.io/</meta>
+		<link href="https://szymonszott.github.io/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -109,7 +111,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Vince Rice</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Rice, Vince</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://www.brokenandsaved.com/</meta>
+		<link href="https://www.brokenandsaved.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
