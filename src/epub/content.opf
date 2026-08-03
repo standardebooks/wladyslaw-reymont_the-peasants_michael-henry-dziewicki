@@ -94,7 +94,7 @@
 		<meta property="file-as" refines="#writer-of-preface">Knopf, Alfred A.</meta>
 		<meta property="schema:alternateName" refines="#writer-of-preface">Alfred Abraham Knopf Sr.</meta>
 		<link href="https://en.wikipedia.org/wiki/Alfred_A._Knopf_Sr." refines="#writer-of-preface" rel="schema:sameAs"/>
-		<link href="https://id.loc.gov/authorities/names/n86134128.html" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n86134128.html" refines="#writer-of-preface" rel="schema:sameAs"/>
 		<meta property="role" refines="#writer-of-preface" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="transcriber-1">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Distributed Proofreaders</meta>
