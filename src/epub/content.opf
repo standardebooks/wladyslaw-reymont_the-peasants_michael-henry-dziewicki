@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/wladyslaw-reymont/the-peasants/michael-henry-dziewicki</dc:identifier>
 		<dc:date>2025-11-09T23:32:11Z</dc:date>
@@ -44,12 +44,12 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">Unknown</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<dc:description id="description">The native inhabitants of a Polish village deal with family conflicts, squabbles over land, societal unrest, and the changing of the seasons.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>The native inhabitants of a Polish village deal with family conflicts, squabbles over land, societal unrest, and the changing of the seasons.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;i&gt;The Peasants&lt;/i&gt; describes one year in the lives of the inhabitants of Lipka, a turn-of-the-century village in Russian-occupied Poland. While the novel has a large cast of characters, its main focus is on the Boryna household.&lt;/p&gt;
 			&lt;p&gt;Matthias Boryna is among the richest and most prominent farmers in the village, and is still vigorous despite being twice a widower. He considers taking the young Yagna as his third wife. Meanwhile, his son Antek, married and father of two, is keen on obtaining his inheritance, and lusts for Yagna. Thus the Borynas struggle for land and love. Meanwhile, other villagers are less well off and strive to make a living. As farmers, they’re in constant battle against the forces of nature; as the rural working class, they collectively act against the whims of their local nobleman. Despite all their trials and tribulations, they find solace in helping their neighbors, upholding customs, and seeing the fruit of their hours of work in the fields.&lt;/p&gt;
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/wladyslaw-reymont"&gt;Władysław Reymont&lt;/a&gt; published &lt;i&gt;The Peasants&lt;/i&gt; as a serial between 1902 and 1908, and later as four separate volumes between 1904 and 1909, with each volume describing a single season. This edition is of the first English translation, published in 1924, and contains all of the seasons in a single volume. The book is notable for being a naturalistic account of rural everyday life and for describing many Polish traditions, some of which are still upheld to this day. Critics praised its blend of realism with impressionism and symbolism. Consequently, Reymont was awarded the Nobel Prize in Literature in 1924 specifically for this work.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<!-- Transcription, Volume 1, Autumn -->
 		<dc:source>https://www.gutenberg.org/ebooks/75846</dc:source>
