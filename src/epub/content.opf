@@ -44,7 +44,7 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">Unknown</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<dc:abstract>The native inhabitants of a Polish village deal with family conflicts, squabbles over land, societal unrest, and the changing of the seasons.</dc:abstract>
+		<meta property="schema:abstract">The native inhabitants of a Polish village deal with family conflicts, squabbles over land, societal unrest, and the changing of the seasons.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;i&gt;The Peasants&lt;/i&gt; describes one year in the lives of the inhabitants of Lipka, a turn-of-the-century village in Russian-occupied Poland. While the novel has a large cast of characters, its main focus is on the Boryna household.&lt;/p&gt;
 			&lt;p&gt;Matthias Boryna is among the richest and most prominent farmers in the village, and is still vigorous despite being twice a widower. He considers taking the young Yagna as his third wife. Meanwhile, his son Antek, married and father of two, is keen on obtaining his inheritance, and lusts for Yagna. Thus the Borynas struggle for land and love. Meanwhile, other villagers are less well off and strive to make a living. As farmers, they’re in constant battle against the forces of nature; as the rural working class, they collectively act against the whims of their local nobleman. Despite all their trials and tribulations, they find solace in helping their neighbors, upholding customs, and seeing the fruit of their hours of work in the fields.&lt;/p&gt;
